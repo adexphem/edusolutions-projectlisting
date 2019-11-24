@@ -1,9 +1,9 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: process.env.REACT_APP_apiKey || "",
-  authDomain: process.env.REACT_APP_authDomain || "",
-  databaseURL: process.env.REACT_APP_databaseURL || ""
+  apiKey: process.env.react_app_apikey || "",
+  authDomain: process.env.react_app_authdomain || "",
+  databaseURL: process.env.react_app_databaseurl || ""
 };
 
 firebase.initializeApp(config);
