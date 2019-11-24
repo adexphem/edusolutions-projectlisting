@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "edusolutions",
+  "name": "edusolutions-projectlisting",
   "alias": "edusolutions-dev",
   "builds": [
     {
