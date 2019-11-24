@@ -85,7 +85,7 @@ export default class App extends Component {
           <h3>Project Lists</h3>
           <div>
             {projectList && this.loadingLists(projectList)}
-            {projectList.length < 1 && <div className="loading">...loading</div>}
+            {projectList && projectList.length < 1 && <div className="loading">...loading</div>}
           </div>
         </div>
       </header>
