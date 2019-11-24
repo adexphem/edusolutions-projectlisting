@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "edusolutions",
+  "alias": "edusolutions-dev",
+  "builds": [
+    {
+      "src": "package.json"
+    }
+  ],
+  "env": {
+    "REACT_APP_API_KEY": "@react_app_api_key",
+    "REACT_APP_AUTHDOMAIN": "@react_app_authdomain",
+    "REACT_APP_DATABASEURL": "@react_app_databaseurl"
+  }
+}
